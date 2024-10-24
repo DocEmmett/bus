@@ -1,7 +1,7 @@
 const busTimesContainer = document.getElementById('bus-times');
 
 function fetchBusTimes() {
-  fetch('https://vitesia.mytrama.com/emtusasiri/paradas/parada/17')
+  fetch('https://vitesia.mytrama.com/emtusasiri/paradas/parada/33')
     .then(response => response.json())
     .then(data => {
       busTimesContainer.innerHTML = ''; // Clear previous data
